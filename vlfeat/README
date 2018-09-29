@@ -1,0 +1,129 @@
+                     VisionLab Features Library
+                  Andrea Vedaldi and Brian Fulkerson
+
+INSTALLING
+  In most cases, you do not need to compile or build the documentation
+  as described below. Instead, to use with MATLAB, simply cd to the
+  toolbox directory and type vl_setup.
+
+  Binaries are created in the bin/XXX directory, where XXX changes
+  depending on the architecture. VLFeat supports the following (the
+  naming reflects MATLAB naming for MEX files):
+
+  - maci    Mac OS X Intel
+  - maci64  Mac OS X Intel (64 bit)
+  - glx     GNU Linux i386
+  - a64     GNU Linux x64
+  - w32     Windows
+  - w64     Windows (64 bit)
+
+  The executable binaries can be installed anywhere in the command
+  line path (the directory contains also the static library).
+
+  More details may be found in the provided HTML documentation
+  (doc/index.html).
+
+COMPILING
+  The core library and command line utilities require a common C
+  compiler supporting the C-90 standard and some C-99 extension (GCC
+  and Visual C will do) plus a few common extension (see APPENDIX). To
+  compile MATLAB support, MATLAB should also be installed and the
+  MATLAB MEX command should be working correctly.
+
+  In general, issuing
+
+  > make
+
+  should be enough to compile VLFeat. Type
+
+  > make help
+
+  or refer to http://www.vlfeat.org for further instructions.
+
+  WINDOWS. VLFeat bundels a Microsoft NMAKE Makefile (Makefile.mak)
+  script that has been tested under Visual C++ 2008 Express and MATLAB
+  R2008a (minor adjustments may be required for other versions). Open
+  the Visual C terminal, cd into the VLFeat directory and issue.
+
+  > nmake /f Makefile.mak
+
+  For Windows 64 use
+
+  > make /f Makefile.mak ARCH=w64
+
+  If you do not have Visual C++ 2008, or you have an older version of
+  Matlab and wish to compile the mex files _only_, then you may start
+  from our binary distribution. Enter the toolbox directory:
+
+  > cd toolbox
+
+  And run our mex compilation script from the Matlab command line:
+
+  > vl_compile
+
+  This has been tested with Matlab R14 and lcc, but other
+  configurations should only require minor tweaking.
+
+CREATING THE DOCUMENTATION
+  This task is handled by various Makefile that have been tested under
+  Mac OS X and Linux only. Compiling the documentation requires the
+  following additional tools
+
+  - fig2dev (part of transfig)
+  - a modern LaTeX with
+    + pdflatex
+    + dvips
+    + htlatex (possibily part of TeX4ht)
+    + dvipng  (possibily a separated package)
+  - doxygen
+
+  FIGURES. Figures are preprocessed by typing
+
+  > make -C doc/figures
+
+  However you need to run some MATLAB code to generate part of the
+  figures to start with. To this end, load MATLAB and (provided that
+  everything is compiled and installed correctly) type
+
+  > vl_demo
+
+  TUTORIALS. To create the figures for the tutorials, issue
+
+  > make doc-deep
+  > make doc
+
+  SOURCE CODE DOCUMENTATION. To compile the source code documentation
+  type
+
+  > make doc-api
+
+  See the file doc/index.html for an overview.
+
+APPENDIX
+  CODE COMPATIBILITY. In addition to the C-90 standard, the C compiler
+  is supposed to support the following common features:
+
+  - long int (64 bit integer) support
+  - variadic macro support
+
+  The SSE accelerated code requires the compiler to support Intel
+  intrisic. GCC and Visual C both satisfy all the requirements.
+
+CHANGES
+  0.9.8      Added image distance transform. Improved documentation.
+  0.9.7      Changed the Mac OS X binary distribution to require
+             a less recent version of Mac OS X (10.5).
+  0.9.6      Changed the GNU/Linux binary distribution to require
+             a less recent version of the C library.
+  0.9.5      Added kd-tree and new SSE-accelerated vector/histogram
+             comparison code.  Improved dense SIFT (dsift) implementation.
+             Added Snow Leopard and MATLAB R2009b support.
+  0.9.4      Added quick shift. Renamed dhog to dsift and improved
+             implementation and documentation. Improved tutorials.
+             Added 64 bit Windows binaries. Many other small changes.
+  0.9.3      Namespace change (everything begins with a vl_ prefix
+             now). Many other changes to provide compilation support
+             on Windows with Matlab 7.
+  beta-3     Completions to the ikmeans code.
+  beta-2     Many completions.
+  beta-1     Initial public release.

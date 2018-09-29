@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{07367665-DCDA-4044-94CE-ABC01CC4119D}</ProjectGuid>
+    <RootNamespace>vlfeat</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>vc\$(Configuration)\</OutDir>
+    <IntDir>vc\$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>nmake /f Makefile.mak</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>nmake /f Makefile.mak clean all</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>nmake /f Makefile.mak clean</NMakeCleanCommandLine>
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>nmake /f Makefile.mak</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>nmake /f Makefile.mak clean all</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>nmake /f Makefile.mak clean</NMakeCleanCommandLine>
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <BuildLog>
+      <Path>vc\BuildLog.htm</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aib.c" />
+    <ClCompile Include="src\mser.c" />
+    <ClCompile Include="src\sift.c" />
+    <ClCompile Include="src\test_getopt_long.c" />
+    <ClCompile Include="src\test_heap-t.c" />
+    <ClCompile Include="src\test_heap.c" />
+    <ClCompile Include="src\test_host.c" />
+    <ClCompile Include="src\test_imopv.c" />
+    <ClCompile Include="src\test_mathop.c" />
+    <ClCompile Include="src\test_mathop_abs.c" />
+    <ClCompile Include="src\test_nan.c" />
+    <ClCompile Include="src\test_rand.c" />
+    <ClCompile Include="src\test_stringop.c" />
+    <ClCompile Include="src\test_threads.c" />
+    <ClCompile Include="src\test_vec_comp.c" />
+    <ClCompile Include="vl\aib.c" />
+    <ClCompile Include="vl\dsift.c" />
+    <ClCompile Include="vl\generic.c" />
+    <ClCompile Include="vl\getopt_long.c" />
+    <ClCompile Include="vl\hikmeans.c" />
+    <ClCompile Include="vl\homkermap.c" />
+    <ClCompile Include="vl\host.c" />
+    <ClCompile Include="vl\ikmeans.c" />
+    <ClCompile Include="vl\imopv.c" />
+    <ClCompile Include="vl\imopv_sse2.c" />
+    <ClCompile Include="vl\kdtree.c" />
+    <ClCompile Include="vl\kmeans.c" />
+    <ClCompile Include="vl\mathop.c" />
+    <ClCompile Include="vl\mathop_sse2.c" />
+    <ClCompile Include="vl\mser.c" />
+    <ClCompile Include="vl\pgm.c" />
+    <ClCompile Include="vl\quickshift.c" />
+    <ClCompile Include="vl\random.c" />
+    <ClCompile Include="vl\rodrigues.c" />
+    <ClCompile Include="vl\sift.c" />
+    <ClCompile Include="vl\stringop.c" />
+    <ClCompile Include="toolbox\aib\vl_aib.c" />
+    <ClCompile Include="toolbox\aib\vl_aibhist.c" />
+    <ClCompile Include="toolbox\misc\vl_alldist.c" />
+    <ClCompile Include="toolbox\misc\vl_alldist2.c" />
+    <ClCompile Include="toolbox\misc\vl_binsearch.c" />
+    <ClCompile Include="toolbox\misc\vl_binsum.c" />
+    <ClCompile Include="toolbox\sift\vl_dsift.c" />
+    <ClCompile Include="toolbox\mser\vl_erfill.c" />
+    <ClCompile Include="toolbox\misc\vl_getpid.c" />
+    <ClCompile Include="toolbox\kmeans\vl_hikmeans.c" />
+    <ClCompile Include="toolbox\kmeans\vl_hikmeanspush.c" />
+    <ClCompile Include="toolbox\misc\vl_ihashfind.c" />
+    <ClCompile Include="toolbox\misc\vl_ihashsum.c" />
+    <ClCompile Include="toolbox\kmeans\vl_ikmeans.c" />
+    <ClCompile Include="toolbox\kmeans\vl_ikmeanspush.c" />
+    <ClCompile Include="toolbox\imop\vl_imdisttf.c" />
+    <ClCompile Include="toolbox\imop\vl_imintegral.c" />
+    <ClCompile Include="toolbox\imop\vl_imsmooth.c" />
+    <ClCompile Include="toolbox\imop\vl_imwbackwardmx.c" />
+    <ClCompile Include="toolbox\misc\vl_inthist.c" />
+    <ClCompile Include="toolbox\geometry\vl_irodr.c" />
+    <ClCompile Include="toolbox\misc\vl_kdtreebuild.c" />
+    <ClCompile Include="toolbox\misc\vl_kdtreequery.c" />
+    <ClCompile Include="toolbox\kmeans\vl_kmeans.c" />
+    <ClCompile Include="toolbox\misc\vl_localmax.c" />
+    <ClCompile Include="toolbox\mser\vl_mser.c" />
+    <ClCompile Include="toolbox\misc\vl_pegasos.c" />
+    <ClCompile Include="toolbox\quickshift\vl_quickshift.c" />
+    <ClCompile Include="toolbox\geometry\vl_rodr.c" />
+    <ClCompile Include="toolbox\misc\vl_samplinthist.c" />
+    <ClCompile Include="toolbox\sift\vl_sift.c" />
+    <ClCompile Include="toolbox\sift\vl_siftdescriptor.c" />
+    <ClCompile Include="toolbox\misc\vl_simdctrl.c" />
+    <ClCompile Include="toolbox\imop\vl_tpsumx.c" />
+    <ClCompile Include="toolbox\misc\vl_twister.c" />
+    <ClCompile Include="toolbox\sift\vl_ubcmatch.c" />
+    <ClCompile Include="toolbox\misc\vl_version.c" />
+    <ClCompile Include="toolbox\misc\vl_whistc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\generic-driver.h" />
+    <ClInclude Include="vl\aib.h" />
+    <ClInclude Include="vl\dsift.h" />
+    <ClInclude Include="vl\generic.h" />
+    <ClInclude Include="vl\getopt_long.h" />
+    <ClInclude Include="vl\heap-def.h" />
+    <ClInclude Include="vl\hikmeans.h" />
+    <ClInclude Include="vl\homkermap.h" />
+    <ClInclude Include="vl\host.h" />
+    <ClInclude Include="vl\ikmeans.h" />
+    <ClInclude Include="vl\imopv.h" />
+    <ClInclude Include="vl\imopv_sse2.h" />
+    <ClInclude Include="vl\kdtree.h" />
+    <ClInclude Include="vl\kmeans.h" />
+    <ClInclude Include="vl\mathop.h" />
+    <ClInclude Include="vl\mathop_sse2.h" />
+    <ClInclude Include="vl\mser.h" />
+    <ClInclude Include="vl\pgm.h" />
+    <ClInclude Include="vl\qsort-def.h" />
+    <ClInclude Include="vl\quickshift.h" />
+    <ClInclude Include="vl\random.h" />
+    <ClInclude Include="vl\rodrigues.h" />
+    <ClInclude Include="vl\shuffle-def.h" />
+    <ClInclude Include="vl\sift.h" />
+    <ClInclude Include="vl\stringop.h" />
+    <ClInclude Include="toolbox\misc\kdtree.h" />
+    <ClInclude Include="toolbox\mexutils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vl\float.th" />
+    <None Include="vl\ikmeans_elkan.tc" />
+    <None Include="vl\ikmeans_init.tc" />
+    <None Include="vl\ikmeans_lloyd.tc" />
+    <None Include="make\bin.mak" />
+    <None Include="make\dist.mak" />
+    <None Include="make\dll.mak" />
+    <None Include="make\doc.mak" />
+    <None Include="make\matlab.mak" />
+    <None Include="make\octave.mak" />
+    <None Include="make\update-mak.sh" />
+    <None Include="Makefile.mak" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,119 @@
+<!DOCTYPE group PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<group>
+
+ <p>The <b>VLFeat</b> <a
+  href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">open
+  source</a> library implements popular computer vision algorithms
+  including
+  <em>SIFT</em>, <em>MSER</em>, <em>k-means</em>, <em>hierarchical
+  k-means</em>, <em>agglomerative information bottleneck, and quick
+  shift</em>.  It is written in C for efficiency and compatibility,
+  with interfaces in MATLAB for ease of use, and detailed
+  documentation throughout. It supports
+  <em>Windows</em>, <em>Mac OS X</em>, and <em>Linux</em>. The latest version of
+  VLFeat is <include src="version.html" />.</p>
+
+ <div class="box" style="height:6em;">
+  <!-- <img src="%pathto:root;images/down.png" alt="Download" style="float:left;"/> -->
+  <h1>Download</h1>
+  <ul>
+   <li><b><a href="%pathto:root;download/vlfeat-%env:VERSION;-bin.tar.gz"
+   onClick="javascript:
+   pageTracker._trackPageview('/download/vlfeat-%env:VERSION;-bin.tar.gz');">VLFeat
+   %env:VERSION;</a></b> (Windows, Mac, Linux)</li>
+   <li><a href="%pathto:download;">Source code and installation</a></li>
+   <li><a href="http://github.com/vlfeat/vlfeat/tree/master">Git
+   repository</a></li>
+  </ul>
+ </div>
+
+ <div class="box" style="height:6em;">
+  <!-- <img src="%pathto:root;images/help.png" alt="Help" style="float:left;"/> -->
+  <h1>Documentation</h1>
+  <ul>
+   <li><a href="%pathto:mdoc;">MATLAB commands</a></li>
+   <li><a href="%pathto:api;">C API</a> with algorithm descriptions</li>
+   <li><a href="%pathto:man;">Command line tools</a></li>
+  </ul>
+
+ </div><div class="box" style="height:12em;">
+  <h1>Tutorials</h1>
+  <ul>
+  <li>Features:  <a href="%pathto:tut.sift;">SIFT</a>, <a href="%pathto:tut.mser;">MSER</a>,
+    <a href="%pathto:tut.qs;">Quick shift</a></li>
+  <li>Clustering: <a href="%pathto:tut.ikm;">IKM</a>, <a href="%pathto:tut.hikm;">HIKM</a>,
+    <a href="%pathto:tut.aib;">AIB</a></li>
+  <li>Matching:<a href="%pathto:tut.kdtree;">randomized kd-trees</a></li>
+  <li><a href="%pathto:tut;">All tutorials</a></li>
+  </ul>
+  <h1>Example applications</h1>
+  <ul>
+  <li><a href="%pathto:apps.caltech-101;">Dense SIFT and spatial
+  histograms for image classification.</a></li>
+  </ul>
+ </div>
+
+ <div class="box" style="height:12em;">
+  <h1>Citing</h1>
+<pre style="font-size: .8em; color: black; margin-top: 0.5em ; margin-bottom: 1.1em; line-height:1.1em;">
+@misc{vedaldi08vlfeat,
+ Author = {A. Vedaldi and B. Fulkerson},
+ Title = {{VLFeat}: An Open and Portable Library 
+          of Computer Vision Algorithms},
+ Year  = {2008},
+ Howpublished = {\url{http://www.vlfeat.org/}}
+</pre>
+<h1>Acknowledgments</h1>
+<p><a href="http://vision.ucla.edu">UCLA Vision
+Lab</a>, <a href="http://www.robots.ox.ac.uk/~vgg/">Oxford VGG</a>.</p>
+ </div>
+
+ <h2 style="clear:left;">News</h2>
+
+ <div class="clear">&nsbp;</div>
+ <dl id="changes">
+   <dt>10/05/2010 - VLFeat 0.9.8 released</dt>
+   <dd>VLFeat 0.9.8 adds new tutorials, (hierarchical) k-means support for
+     floating point data, homogeneous kernel maps, a basic implementation
+     of PEGASOS for SVM learning, and many other improvements.
+     [<a href="http://github.com/vlfeat/vlfeat/commits/v0.9.8">Details</a>].
+   </dd>
+
+   <dt>16/01/2010 - VLFeat 0.9.7 released</dt>
+   <dd>VLFeat 0.9.7 updates the binary distribution to be backward
+     compatible with Mac OS X 10.5 (Leopard).
+     [<a href="http://github.com/vlfeat/vlfeat/commits/v0.9.7">Details</a>].
+   </dd>
+
+   <dt>10/01/2010 - VLFeat 0.9.6 released</dt>
+   <dd>VLFeat 0.9.6 contains minor improvements to the binary
+   distribution. Specifically, it makes VLFeat GNU/Linux distribution
+   compatible with the older GLIBC version 2.3.
+   [<a href="http://github.com/vlfeat/vlfeat/commits/v0.9.6">Details</a>].
+   </dd>
+
+   <dt>30/11/2009 - VLFeat 0.9.5 released</dt>
+   <dd>VLFeat 0.9.5 adds a fast kd-tree implementation and
+   SSE-acelerated vector/histogram comparison. The dense SIFT (dsift)
+   implementation has also been improved. Binaries and compilation
+   support for Mac OS 10.6 (Snow Leopard) and MATLAB R2009b (32 and 64
+   bit) have been added
+   [<a href="http://github.com/vlfeat/vlfeat/commits/v0.9.5">Details</a>].
+   <blockquote>
+     <b>MATLAB 7.0</b> and earlier require recompling the MEX files by
+     the provided <code>vl_compile</code> command.
+   </blockquote>
+   </dd>
+ </dl>
+
+ <h2 style="clear:left;">Acknowledgments</h2>
+
+ <p>Part of this work was supported by
+ the <a href="http://vision.ucla.edu">UCLA Vision Lab</a> and
+ the <a href="http://www.robots.ox.ac.uk/~vgg/">Oxford VGG
+ Lab</a>. The authors would like to thank the many colleagues that
+ have contributed to VLFeat by testing and providing helpful
+ suggestions and comments.</p>
+
+</group>

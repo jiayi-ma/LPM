@@ -1,0 +1,327 @@
+k = 1-----------------------
+------AddNoise = 0
+----------------LLTR
+
+correct correspondence rate in the original data: 1521/2229 = 0.682369
+precision rate: 1509/1509 = 1.000000
+recall rate: 1509/1521 = 0.992110
+
+----------------LLTA
+
+correct correspondence rate in the original data: 1521/2229 = 0.682369
+precision rate: 1513/1514 = 0.999339
+recall rate: 1513/1521 = 0.994740
+
+----------------LLTV
+
+correct correspondence rate in the original data: 1521/2229 = 0.682369
+precision rate: 1512/1513 = 0.999339
+recall rate: 1512/1521 = 0.994083
+
+----------------Ransac-A
+
+correct correspondence rate in the original data: 1521/2229 = 0.682369
+precision rate: 640/2229 = 0.287124
+recall rate: 640/1521 = 0.420776
+----------------Ransac-R
+
+correct correspondence rate in the original data: 1521/2229 = 0.682369
+precision rate: 485/2229 = 0.217586
+recall rate: 485/1521 = 0.318869
+----------------ICF
+
+correct correspondence rate in the original data: 1521/2229 = 0.682369
+precision rate: 1028/1028 = 1.000000
+recall rate: 1028/1521 = 0.675871
+----------------GraphShift
+
+correct correspondence rate in the original data: 1521/2229 = 0.682369
+precision rate: 1502/1505 = 0.998007
+recall rate: 1502/1521 = 0.987508
+===================================================================================================
+------AddNoise = 50
+----------------LLTR
+
+correct correspondence rate in the original data: 1521/2279 = 0.667398
+precision rate: 1509/1509 = 1.000000
+recall rate: 1509/1521 = 0.992110
+
+----------------LLTA
+
+correct correspondence rate in the original data: 1521/2279 = 0.667398
+precision rate: 1514/1516 = 0.998681
+recall rate: 1514/1521 = 0.995398
+
+----------------LLTV
+
+correct correspondence rate in the original data: 1521/2279 = 0.667398
+precision rate: 1514/1515 = 0.999340
+recall rate: 1514/1521 = 0.995398
+
+----------------Ransac-A
+
+correct correspondence rate in the original data: 1521/2279 = 0.667398
+precision rate: 671/2279 = 0.294427
+recall rate: 671/1521 = 0.441157
+----------------Ransac-R
+
+correct correspondence rate in the original data: 1521/2279 = 0.667398
+precision rate: 430/2279 = 0.188679
+recall rate: 430/1521 = 0.282709
+----------------ICF
+
+correct correspondence rate in the original data: 1521/2279 = 0.667398
+precision rate: 1034/1034 = 1.000000
+recall rate: 1034/1521 = 0.679816
+----------------GraphShift
+
+correct correspondence rate in the original data: 1521/2279 = 0.667398
+precision rate: 1503/1507 = 0.997346
+recall rate: 1503/1521 = 0.988166
+===================================================================================================
+------AddNoise = 100
+----------------LLTR
+
+correct correspondence rate in the original data: 1521/2329 = 0.653070
+precision rate: 1509/1509 = 1.000000
+recall rate: 1509/1521 = 0.992110
+
+----------------LLTA
+
+correct correspondence rate in the original data: 1521/2329 = 0.653070
+precision rate: 1515/1516 = 0.999340
+recall rate: 1515/1521 = 0.996055
+
+----------------LLTV
+
+correct correspondence rate in the original data: 1521/2329 = 0.653070
+precision rate: 1516/1517 = 0.999341
+recall rate: 1516/1521 = 0.996713
+
+----------------Ransac-A
+
+correct correspondence rate in the original data: 1521/2329 = 0.653070
+precision rate: 589/2329 = 0.252898
+recall rate: 589/1521 = 0.387245
+----------------Ransac-R
+
+correct correspondence rate in the original data: 1521/2329 = 0.653070
+precision rate: 466/2329 = 0.200086
+recall rate: 466/1521 = 0.306377
+----------------ICF
+
+correct correspondence rate in the original data: 1521/2329 = 0.653070
+precision rate: 1035/1035 = 1.000000
+recall rate: 1035/1521 = 0.680473
+----------------GraphShift
+
+correct correspondence rate in the original data: 1521/2329 = 0.653070
+precision rate: 1502/1507 = 0.996682
+recall rate: 1502/1521 = 0.987508
+===================================================================================================
+------AddNoise = 150
+----------------LLTR
+
+correct correspondence rate in the original data: 1521/2379 = 0.639344
+precision rate: 1509/1509 = 1.000000
+recall rate: 1509/1521 = 0.992110
+
+----------------LLTA
+
+correct correspondence rate in the original data: 1521/2379 = 0.639344
+precision rate: 1515/1516 = 0.999340
+recall rate: 1515/1521 = 0.996055
+
+----------------LLTV
+
+correct correspondence rate in the original data: 1521/2379 = 0.639344
+precision rate: 1516/1517 = 0.999341
+recall rate: 1516/1521 = 0.996713
+
+----------------Ransac-A
+
+correct correspondence rate in the original data: 1521/2379 = 0.639344
+precision rate: 532/2379 = 0.223623
+recall rate: 532/1521 = 0.349770
+----------------Ransac-R
+
+correct correspondence rate in the original data: 1521/2379 = 0.639344
+precision rate: 447/2379 = 0.187894
+recall rate: 447/1521 = 0.293886
+----------------ICF
+
+correct correspondence rate in the original data: 1521/2379 = 0.639344
+precision rate: 1039/1039 = 1.000000
+recall rate: 1039/1521 = 0.683103
+----------------GraphShift
+
+correct correspondence rate in the original data: 1521/2379 = 0.639344
+precision rate: 1501/1507 = 0.996019
+recall rate: 1501/1521 = 0.986851
+===================================================================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+k = 2-----------------------
+------AddNoise = 0
+----------------LLTR
+
+correct correspondence rate in the original data: 2477/2767 = 0.895193
+precision rate: 2455/2455 = 1.000000
+recall rate: 2455/2477 = 0.991118
+
+----------------LLTA
+
+correct correspondence rate in the original data: 2477/2767 = 0.895193
+precision rate: 2456/2456 = 1.000000
+recall rate: 2456/2477 = 0.991522
+
+----------------LLTV
+
+correct correspondence rate in the original data: 2477/2767 = 0.895193
+precision rate: 2436/2436 = 1.000000
+recall rate: 2436/2477 = 0.983448
+
+----------------Ransac-A
+
+correct correspondence rate in the original data: 2477/2767 = 0.895193
+precision rate: 2303/2767 = 0.832309
+recall rate: 2303/2477 = 0.929754
+----------------Ransac-R
+
+correct correspondence rate in the original data: 2477/2767 = 0.895193
+precision rate: 2410/2767 = 0.870979
+recall rate: 2410/2477 = 0.972951
+----------------ICF
+
+correct correspondence rate in the original data: 2477/2767 = 0.895193
+precision rate: 1421/1421 = 1.000000
+recall rate: 1421/2477 = 0.573678
+----------------GraphShift
+
+correct correspondence rate in the original data: 2477/2767 = 0.895193
+precision rate: 2445/2445 = 1.000000
+recall rate: 2445/2477 = 0.987081
+===================================================================================================
+------AddNoise = 50
+----------------LLTR
+
+correct correspondence rate in the original data: 2477/2817 = 0.879304
+precision rate: 2456/2456 = 1.000000
+recall rate: 2456/2477 = 0.991522
+
+----------------LLTA
+
+correct correspondence rate in the original data: 2477/2817 = 0.879304
+precision rate: 2456/2456 = 1.000000
+recall rate: 2456/2477 = 0.991522
+
+----------------LLTV
+
+correct correspondence rate in the original data: 2477/2817 = 0.879304
+precision rate: 2439/2439 = 1.000000
+recall rate: 2439/2477 = 0.984659
+
+----------------Ransac-A
+
+correct correspondence rate in the original data: 2477/2817 = 0.879304
+precision rate: 2369/2817 = 0.840966
+recall rate: 2369/2477 = 0.956399
+----------------Ransac-R
+
+correct correspondence rate in the original data: 2477/2817 = 0.879304
+precision rate: 2410/2817 = 0.855520
+recall rate: 2410/2477 = 0.972951
+----------------ICF
+
+correct correspondence rate in the original data: 2477/2817 = 0.879304
+precision rate: 1434/1434 = 1.000000
+recall rate: 1434/2477 = 0.578926
+----------------GraphShift
+
+correct correspondence rate in the original data: 2477/2817 = 0.879304
+precision rate: 2439/2439 = 1.000000
+recall rate: 2439/2477 = 0.984659
+===================================================================================================
+------AddNoise = 100
+----------------LLTR
+
+correct correspondence rate in the original data: 2477/2867 = 0.863969
+precision rate: 2456/2456 = 1.000000
+recall rate: 2456/2477 = 0.991522
+
+----------------LLTA
+
+correct correspondence rate in the original data: 2477/2867 = 0.863969
+precision rate: 2456/2456 = 1.000000
+recall rate: 2456/2477 = 0.991522
+
+----------------LLTV
+
+correct correspondence rate in the original data: 2477/2867 = 0.863969
+precision rate: 2437/2437 = 1.000000
+recall rate: 2437/2477 = 0.983851
+
+----------------Ransac-A
+
+correct correspondence rate in the original data: 2477/2867 = 0.863969
+precision rate: 2400/2867 = 0.837112
+recall rate: 2400/2477 = 0.968914
+----------------Ransac-R
+
+correct correspondence rate in the original data: 2477/2867 = 0.863969
+precision rate: 2396/2867 = 0.835717
+recall rate: 2396/2477 = 0.967299
+----------------ICF
+
+correct correspondence rate in the original data: 2477/2867 = 0.863969
+precision rate: 1465/1465 = 1.000000
+recall rate: 1465/2477 = 0.591441
+----------------GraphShift
+
+correct correspondence rate in the original data: 2477/2867 = 0.863969
+precision rate: 2432/2433 = 0.999589
+recall rate: 2432/2477 = 0.981833
+===================================================================================================
+------AddNoise = 150
+----------------LLTR
+
+correct correspondence rate in the original data: 2477/2917 = 0.849160
+precision rate: 2460/2460 = 1.000000
+recall rate: 2460/2477 = 0.993137
+
+----------------LLTA
+
+correct correspondence rate in the original data: 2477/2917 = 0.849160
+precision rate: 2458/2458 = 1.000000
+recall rate: 2458/2477 = 0.992329
+
+----------------LLTV
+
+correct correspondence rate in the original data: 2477/2917 = 0.849160
+precision rate: 2438/2438 = 1.000000
+recall rate: 2438/2477 = 0.984255
+
+----------------Ransac-A
+
+correct correspondence rate in the original data: 2477/2917 = 0.849160
+precision rate: 2312/2917 = 0.792595
+recall rate: 2312/2477 = 0.933387
+----------------Ransac-R
+
+correct correspondence rate in the original data: 2477/2917 = 0.849160
+precision rate: 2406/2917 = 0.824820
+recall rate: 2406/2477 = 0.971336
+----------------ICF
+
+correct correspondence rate in the original data: 2477/2917 = 0.849160
+precision rate: 1477/1477 = 1.000000
+recall rate: 1477/2477 = 0.596286
+----------------GraphShift
+
+correct correspondence rate in the original data: 2477/2917 = 0.849160
+precision rate: 2442/2442 = 1.000000
+recall rate: 2442/2477 = 0.985870
+===================================================================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+k = 3-----------------------
+------AddNoise = 0
+----------------LLTR
