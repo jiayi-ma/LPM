@@ -3,6 +3,7 @@
 ## Codes for Locality Preserving Matching
 
 - LPM is able to identify false matches from 1,000 putative correspondences in only a few milliseconds.
+- There is also a Python implementation at: https://github.com/jiayi-ma/LPM_Python.
 
 ### Please refer to our following papers for algorithm details:
 
